@@ -1,0 +1,24 @@
+{
+    "name": "isavon/yii2-quickstatus",
+    "description": "The Quickstatus extension for the Yii2 Framework",
+    "keywords": ["yii2", "extension", "widget", "quick", "status", "jquery", "plugin"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Savon",
+            "email": "isavon.we@gmail.com",
+            "homepage": "https://github.com/isavon/yii2-quickstatus",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "isavon/yii2-grid": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "isavon\\quickstatus\\": "src"
+        }
+    }
+}
